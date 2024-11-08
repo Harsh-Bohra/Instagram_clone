@@ -1,0 +1,81 @@
+[versions]
+agp = "8.5.1"
+androidxJunit = "1.1.2"
+appcompatV7Version = "28.0.0"
+bottomnavigationviewex = "2.0.4"
+cardview = "1.0.0"
+ccp = "2.3.1"
+ccpVersion = "2.5.6"
+circleimageview = "3.1.0"
+compiler = "4.15.1"
+espressoCoreVersion = "3.3.0"
+firebaseAnalytics = "22.1.2"
+firebaseAuthVersion = "19.4.0"
+firebaseCore = "21.1.1"
+firebaseDatabaseVersion = "19.4.0"
+firebaseMessaging = "24.0.3"
+firebaseStorage = "21.0.1"
+glide = "4.16.0"
+glideVersion = "4.11.0"
+junit = "4.13.2"
+junitJunit = "4.12"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+legacySupportV4 = "1.0.0"
+library = "2.1.4"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+firebaseDatabase = "21.0.0"
+firebaseAuth = "23.1.0"
+materialVersion = "1.0.0"
+retrofit = "2.9.0"
+storiesprogressview = "3.0.0"
+storiesprogressviewVersion = "1.0.0"
+ucropVersion = "2.2.6"
+universalImageLoader = "1.9.5"
+googleGmsGoogleServices = "4.4.2"
+
+[libraries]
+android-storiesprogressview = { module = "jp.shts.android:storiesprogressview", version.ref = "storiesprogressviewVersion" }
+bottomnavigationviewex = { module = "com.github.ittianyu:BottomNavigationViewEx", version.ref = "bottomnavigationviewex" }
+cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
+ccp = { module = "com.hbb20:ccp", version.ref = "ccp" }
+ccp-v256 = { module = "com.hbb20:ccp", version.ref = "ccpVersion" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "compiler" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+espresso-core-v330 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebaseAnalytics" }
+firebase-auth-v1940 = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuthVersion" }
+firebase-core = { module = "com.google.firebase:firebase-core", version.ref = "firebaseCore" }
+firebase-database-v1940 = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabaseVersion" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging", version.ref = "firebaseMessaging" }
+firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorage" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+glide-v4110 = { module = "com.github.bumptech.glide:glide", version.ref = "glideVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+junit-v112 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+junit-v412 = { module = "junit:junit", version.ref = "junitJunit" }
+legacy-support-v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "legacySupportV4" }
+library = { module = "com.rengwuxian.materialedittext:library", version.ref = "library" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+material-v100 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+storiesprogressview = { module = "com.github.shts:StoriesProgressView", version.ref = "storiesprogressview" }
+support-appcompat-v7 = { module = "com.android.support:appcompat-v7", version.ref = "appcompatV7Version" }
+universal-image-loader = { module = "com.nostra13.universalimageloader:universal-image-loader", version.ref = "universalImageLoader" }
+yalantis-ucrop = { module = "com.github.yalantis:ucrop", version.ref = "ucropVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+

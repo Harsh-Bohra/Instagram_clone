@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "31387940015",
+    "firebase_url": "https://contentio-content-sharing-default-rtdb.firebaseio.com",
+    "project_id": "contentio-content-sharing",
+    "storage_bucket": "contentio-content-sharing.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31387940015:android:b4b53c8d57d54ee30e505a",
+        "android_client_info": {
+          "package_name": "com.example.contentio_content_sharing_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Ph9hY146LamS4Z8zvir16k-ydlpLJtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31387940015:android:67043e1620c382620e505a",
+        "android_client_info": {
+          "package_name": "my.insta.androrealm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Ph9hY146LamS4Z8zvir16k-ydlpLJtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
